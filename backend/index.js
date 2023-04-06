@@ -12,7 +12,7 @@ require('./connectionDB.js')
 app.use(require("./register/register.js"))
 app.use(require("./siginin/signin.js"))
 
-const PORT =  3000|| process.env.PORT;
+const PORT =  3000 || process.env.PORT;
 
 app.get('/', (req, res) => {
     try{

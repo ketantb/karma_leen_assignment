@@ -9,7 +9,7 @@ const PastSignin = () => {
 
     const fetchUserData = async () => {
         try {
-            axios.get(`http://localhost:3000/users?userEmail=${localStorage.userEmail}`)
+            axios.get(`https://karmaln-backend-ketan.onrender.com/users?userEmail=${localStorage.userEmail}`)
                 .then((data) => {
                     setUserData(data.data)
                 })
@@ -40,7 +40,7 @@ const PastSignin = () => {
 
     const updateDetails = async () => {
         try {
-            await axios.put(`http://localhost:3000/update/${userData._id}`, userData)
+            await axios.put(`https://karmaln-backend-ketan.onrender.com/update/${userData._id}`, userData)
                 .then((data) => {
                     console.log(data.data.message)
                     if (data.data.message === 'updation successful!') {

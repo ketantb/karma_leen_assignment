@@ -20,7 +20,7 @@ const Register = () => {
     const postRegForm = async (e) => {
         e.preventDefault()
         console.log(regFormData)
-        await axios.post('http://localhost:3000/register', regFormData)
+        await axios.post('https://karmaln-backend-ketan.onrender.com/register', regFormData)
             .then((res) => {
                 console.log(res.data)
                 navigate('/signin')
