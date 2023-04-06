@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* width: 100vw;
+    height: 100vh; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regForm-container{
+    width: 475px;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgb(143, 143, 145);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.regForm-container>h2{
+    font-size: 29px;
+    font-weight: 500;
+    text-align: center;
+    /* background-color: rgb(234, 9, 255); */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.regForm-container>form{
+    /* width: 100%; */
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regForm-container>form>div{
+    margin-top: 5px;
+}
+
+.regForm-container>form>div:first-child>section>input:nth-child(2){
+    margin-left: 15px;
+}
+
+.regForm-container>form>div>input:nth-child(1){
+    /* margin-top: 15px; */
+}
+
+.regForm-container>form>div>div{
+    margin-top: 08px;
+}
+
+.regForm-container>form>div>div>label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.regForm-container>form>div>section{
+    margin-top: 5px;
+}
+
+.regForm-inputs-names{
+    width: 150px;
+    height: 35px;
+    padding-left: 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.regForm-inputs{
+    width: 315px;
+    height: 35px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+#regForm-Btn{
+    margin-top: 15px;
+    width: 315px;
+    height: 35px;
+    border: none;
+    background-color: rgb(23, 129, 250);
+    color: #FFF;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#regForm-Btn:hover{
+    background-color: rgb(0, 64, 137);
+}
+
+/* #validationErr{
+    margin-top: 15px;
+} */
+
+.regForm-container>div{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* #address-add-btn{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+} */
+
+.address-ips{
+    /* position: relative; */
+}
